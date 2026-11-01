@@ -1,0 +1,8 @@
+role_id,role_name,function,role_family_id
+ROLE-001,Software Engineer,Technology,1
+ROLE-002,Data Analyst,Analytics,2
+ROLE-003,Product Manager,Product,3
+ROLE-004,Customer Support Specialist,Operations,4
+ROLE-005,HR Partner,People,5
+ROLE-006,Finance Analyst,Finance,6
+ROLE-007,Engineering Manager,Technology,1
