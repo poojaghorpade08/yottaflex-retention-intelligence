@@ -1,0 +1,5 @@
+case_id,issue_type,record_reference,ground_truth_label,expected_handling
+EDGE-001,FUTURE_FEATURE_LEAKAGE,OUTCOME_LABEL_IN_FEATURES,INVALID_FEATURE,Reject any post-cutoff outcome or termination field from feature matrix.
+EDGE-002,MISSING_SURVEY_AS_NEGATIVE,MISSING_SURVEY_EXAMPLE,MISSING_NOT_NEGATIVE,Represent missing survey as unknown; do not impute a zero or negative engagement score.
+EDGE-003,OUTCOME_DATE_LABEL_MISMATCH,OUTCOME_DATE_AFTER_HORIZON,INVALID_OUTCOME_RECORD,Flag termination date outside the documented label horizon or inconsistent with outcome_type.
+EDGE-004,UNEXPLAINED_SCORE_NO_HUMAN_REVIEW,INDIVIDUAL_SCORE_WITHOUT_REVIEW,REQUIRES_HUMAN_REVIEW,"Do not use an individual score for action without reason codes, context and human review."
